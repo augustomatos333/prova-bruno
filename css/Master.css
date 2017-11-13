@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+.navegacao {
+  background-color: white;
+  border: none;
+}
+
+.navegacao img {
+  width: 125px;
+  margin-left: 17px;
+}
+
+.pesquisa {
+  margin-top: 17px;
+}
+
+.idioma img {
+  width: 30px;
+  margin-top: 17px;
+
+}
