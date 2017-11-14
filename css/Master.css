@@ -11,12 +11,45 @@
   margin-left: 17px;
 }
 
+.navegacao a {
+  margin-top: 27px;
+}
+
 .pesquisa {
   margin-top: 17px;
 }
 
-.idioma img {
-  width: 30px;
-  margin-top: 17px;
+.idioma img{
+  width: 25px;
+}
 
+.idioma button {
+  border: none;
+}
+
+.idioma{
+  margin-top: 19px;
+}
+
+.idioma a {
+  color: black;
+  margin-top: 17px;
+}
+
+.menulateral span {
+  color: red;
+}
+
+.menulateral h5 {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.menulateral a {
+  color: black;
+  font-size: 16px;
+}
+
+.menulateral hr{
+  border: 0.5px solid lightgrey;
 }
