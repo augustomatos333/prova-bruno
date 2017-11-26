@@ -36,6 +36,10 @@
   margin-top: 17px;
 }
 
+.menulateral {
+  border-right: 1px solid lightgrey;
+}
+
 .menulateral span {
   color: red;
 }
@@ -52,4 +56,13 @@
 
 .menulateral hr{
   border: 0.5px solid lightgrey;
+}
+
+.conteudo a{
+  text-decoration: none;
+  color: black;
+}
+
+.conteudo a:hover {
+  text-decoration: none;
 }

@@ -21,7 +21,7 @@
   </head>
   <body>
     <?php
-    $url = 'http://localhost';
+    $url = 'http://localhost/YouTube';
      ?>
     <?php if(isset ($_GET['lingua'])=='ingles'){
       require_once 'ingles.php';
@@ -34,17 +34,22 @@
      </div>
 
      <div class="container-fluid">
-       <div class="row menulateralrow">
-         <?php require_once 'menulateral.php'; ?>
-       </div>
-     </div>
+       <div class="row"> <!-- começa o row com a barra lateral e o conteudo -->
+         <div class="lateral">
+           <?php require_once 'menulateral.php'; ?>
+
+         </div>
+
+         <div class="conteudo col-lg-10">
+
+         </div>
+       </div> <!-- termina o row com a lateral e o conteudo -->
+     </div> <!-- fim do container fluid -->
 
 
 
-    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/java.js"></script>
   </body>
 </html>
