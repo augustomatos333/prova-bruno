@@ -66,3 +66,11 @@
 .conteudo a:hover {
   text-decoration: none;
 }
+
+.contentvideo * {
+margin-left: 15px;
+}
+
+.coments * {
+margin-left: 35px;
+}

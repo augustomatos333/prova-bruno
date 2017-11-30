@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php if(isset ($_GET['lingua'])=='ingles'){
+      require_once 'ingles.php';
+    } else {
+      require_once 'portugues.php';
+    }
+    ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
-    <title>YouTube</title>
+    <title><?php echo "$titulo[3]"; ?></title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,30 +29,15 @@
     <?php
     $url = 'http://localhost/YouTube';
      ?>
-    <?php if(isset ($_GET['lingua'])=='ingles'){
-      require_once 'ingles.php';
-    } else {
-      require_once 'portugues.php';
-    }
-    ?>
-
      <div class="container-fluid">
        <div class="row">
         <?php require_once 'navegacao.php'; ?>
        </div>
-       <div class="row"> <!-- começa o row com a barra lateral e o conteudo -->
-         <div class="lateral">
-           <?php require_once 'menulateral.php'; ?>
+       <div class="row videos-coments-descricao">
+            <?php require_once 'videoconteudo.php'; ?>
+       </div>
 
-         </div>
-
-         <div class="conteudo col-lg-10">
-
-         </div>
-       </div> <!-- termina o row com a lateral e o conteudo -->
      </div> <!-- fim do container fluid -->
-
-
 
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
     <script src="js/jquery-3.2.1.min.js"></script>

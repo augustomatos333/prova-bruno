@@ -12,7 +12,7 @@
     <li><a id="noticia" href="#"><span class="fa fa-newspaper-o" aria-hidden="true"></span>&nbsp;&nbsp; <?= $lingua ['vNoticias']?></a></li>
   </ul><hr>
   <ul class="nav">
-    <li><a href="#"><span class="fa fa-plus-square" aria-hidden="true"></span>&nbsp;&nbsp; Em alta</a></li>
+    <li><a href="#"><span class="fa fa-plus-square" aria-hidden="true"></span>&nbsp;&nbsp; Mais Canais</a></li>
 
   </ul> <hr>
 </div>

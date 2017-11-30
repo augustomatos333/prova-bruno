@@ -18,7 +18,7 @@ require_once 'portugues.php';
   }elseif ($_GET['cat'] == 'jogo') {
     for($i = 0; $i < 9; $i++){
     echo '<div class="video1 col-lg-4">';
-    echo '<center><a href="#"><img src="'.$jogo[$i].'" alt=""><h5>'.$titulo[$i].'</h5></a></center>';
+    echo '<center><a href="http://localhost/Youtube/video.php"><img src="'.$jogo[$i].'" alt=""><h5>'.$titulo[$i].'</h5></a></center>';
     echo '</div>';
       }
 
