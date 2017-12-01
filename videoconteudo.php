@@ -1,10 +1,17 @@
-<?php require_once 'imagenscategoria.php'; ?>
-<?php require_once 'portugues.php'; ?>
+<?php require_once 'imagenscategoria.php';
+ require_once 'portugues.php';
+ require_once 'linksvideos.php';
+$categoria = $_GET['cat'];
+echo "$categoria";
+echo '&nbsp';
+$vid = $_GET['numvid'];
+echo "$vid";
+?>
 <div class="row contentvideo col-lg-9">
     <div>
-    <iframe width="854" height="480" src="https://www.youtube.com/embed/H-xlHSCRra0?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <iframe width="854" height="480" src="<?=$videos[$categoria][$vid]?>" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
-   <h3>Top 20 Worst Guns and Weapons in Borderlands 2 #PumaCounts</h3>
+   <h3><?= $titulo[$vid]  ?></h3>
    <hr style=" border: 1px solid lightgrey; width: 900px;">
    <div class=" descricao col-lg-7" >
      <h3>DESCRIÇÃO</h3>
@@ -35,7 +42,7 @@
 <?php
   echo '<h4><center>Relacionados<center><h4>';
   for($i = 0; $i < 9; $i++){
-    if ($i != 0) {
+    if ($i != $vid) {
    echo '<div class="col-lg-12">';
    echo '<a href="#"><center><img src="'.$jogo[$i].'" alt=""><center><h5><center>'.$titulo[$i].'</center></h5></a>';
    echo '</div>';
