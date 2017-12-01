@@ -67,10 +67,42 @@
   text-decoration: none;
 }
 
-.contentvideo * {
-margin-left: 15px;
+.contentvideo iframe {
+  margin-left: 40px;
+}
+.contentvideo h3 {
+  margin-left: 40px;
+  font-weight: bold;
+  color: black;
+}
+.descricao {
+  margin-left: 23px;
 }
 
-.coments * {
-margin-left: 35px;
+.descricao h3 {
+  margin-left: 0px;
+  font-weight: bold;
+  color: black;
+}
+
+.coments h3 {
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.coments h4 {
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.coments p {
+margin-left: 20px;
+color: black;
+}
+
+.relacionados a {
+  text-decoration: none;
+  color: black;
 }
