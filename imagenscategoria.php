@@ -1,5 +1,5 @@
 <?php
-$musica = [
+   $musica = [
   'img/musica1.jpg',
   'img/musica2.jpg',
   'img/musica3.jpg',

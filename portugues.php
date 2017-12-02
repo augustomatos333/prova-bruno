@@ -45,32 +45,29 @@ $titulos = [
   'Top 10 Best Guns, Weapons and Gear for Maya the Siren in Borderlands 2 #PumaCounts'
 ],
 
-   'filme' => [
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-   ],
+'filme' => [
+  'Teaser Trailer - Vingadores: Guerra Infinita.',
+  'Guardiões da Galáxia Vol. 2 - TRAILER',
+  'Esquadrão Suicida - Trailer Oficial 1 (leg) [HD]',
+  'Resident Evil: Vendetta Official Trailer #1 (2017) Animated Movie HD',
+  'Forrest Gump - Trailer',
+  'Dragon Ball Z A Batalha dos Deuses Trailer Dublado [Oficial]',
+  'A Viagem de Chihiro - Trailer Dublado [HD]',
+  'Capitão América: Guerra Civil - 28 de Abril nos Cinemas - Trailer Legendado',
+  'Capitão América o Primeiro Vingador - Trailer 2 Dublado HD',
+],
 
    'noticia' => [
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
-     '',
+     'Primeiro transplante de coração do mundo completa 50 anos',
+     '360º: O incrível mergulho debaixo de um iceberg na Antártida',
+     'Campeão de memória ensina truques para guardar grandes quantidades de informação',
+     '‘Tomei veneno’: o momento dramático que suspendeu julgamento histórico',
+     '\'Só faltam os passageiros\'',
+     'Rio de lama vulcânica antecipa grande erupção e leva apreensão a Bali',
+     '\'Injeto veneno de cobra no meu corpo para salvar vidas\'',
+     'China constrói maior radiotelescópio do mundo',
+     'Novas imagens do Hubble mostram aproximação de Marte da Terra',
    ]
 
-
 ];
-
-
  ?>

@@ -41,7 +41,7 @@ $vid = $_GET['numvid'];
   for($i = 0; $i < 9; $i++){
     if ($i != $vid) {
    echo '<div class="col-lg-12">';
-   echo '<a href="#"><img src="'.$jogo[$i].'" alt=""><h5>'.$titulos[$categoria][$i].'<h5></a>';
+   echo '<a href="'.$url.'/video.php?cat='.$categoria.'&numvid='.$i.'""><img src="" alt=""><h5>'.$titulos[$categoria][$i].'<h5></a>';
    echo '</div>';
  }
 }
