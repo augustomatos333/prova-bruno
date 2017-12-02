@@ -40,7 +40,7 @@
 
          </div>
 
-         <div class="conteudo col-lg-10">
+         <div class="conteudo col-lg-9" style=" margin-left: 247px;">
 
          </div>
        </div> <!-- termina o row com a lateral e o conteudo -->

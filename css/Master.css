@@ -4,6 +4,7 @@
 .navegacao {
   background-color: white;
   border: none;
+  border-bottom: 1px solid lightgrey;
 }
 
 .navegacao img {
@@ -38,6 +39,8 @@
 
 .menulateral {
   border-right: 1px solid lightgrey;
+  position: fixed;
+  height: 100%;
 }
 
 .menulateral span {
@@ -65,6 +68,9 @@
 
 .conteudo a:hover {
   text-decoration: none;
+}
+
+.contentvideo {
 }
 
 .contentvideo iframe {
@@ -102,7 +108,12 @@ margin-left: 20px;
 color: black;
 }
 
+.relacionados {
+  border-left: 1px solid lightgrey;
+  border-width: thin;
+}
 .relacionados a {
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }

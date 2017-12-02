@@ -1,6 +1,9 @@
+<?php
+$url = 'http://localhost/YouTube';
+ ?>
 <nav class="navbar  navegacao">
   <div class=" col-lg-2 col-md-2 col-sm-4 col-xs-4 logo">
-    <a  href="#"><img src="img/logo.png" alt="YouTube"></a>
+    <a  href="<?php $url ?>"><img src="img/logo.png" alt="YouTube"></a>
   </div>
   <div class="col-lg-5 col-lg-offset-1  col-md-4 col-sm-7 col-xs-12 pesquisa">
     <div class="input-group">

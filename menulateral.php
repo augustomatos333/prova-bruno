@@ -1,4 +1,4 @@
-<div class="col-sm-3 col-md-2 col-lg-2 menulateral">
+<div class="col-sm-3 col-md-3 col-lg-2 menulateral">
   <ul class="nav">
     <li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp; <?= $lingua ['vInicio']?></a></li>
     <li><a href="#"><span class="glyphicon glyphicon-fire"></span>&nbsp;&nbsp; <?= $lingua ['vEmAlta']?></a></li>
