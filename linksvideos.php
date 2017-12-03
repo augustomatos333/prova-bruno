@@ -50,6 +50,15 @@
   ],
 
   'noticia' => [
+  'https://www.youtube.com/embed/lSXM4EKVl2s',
+  'https://www.youtube.com/embed/ydyenqnzauA',
+  'https://www.youtube.com/embed/Vulz5UQKlak',
+  'https://www.youtube.com/embed/egYwBIZq8No',
+  'https://www.youtube.com/embed/wbNTh1Fl62M',
+  'https://www.youtube.com/embed/LKsjpyoY-Pw',
+  'https://www.youtube.com/embed/WpbZBoJPcV0',
+  'https://www.youtube.com/embed/L3iKvRfgfuM',
+  'https://www.youtube.com/embed/5h86oqUgEZE'      
 
  ]
 

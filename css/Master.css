@@ -5,6 +5,8 @@
   background-color: white;
   border: none;
   border-bottom: 1px solid lightgrey;
+  position: fixed;
+  z-index: 1000;
 }
 
 .navegacao img {
@@ -38,9 +40,9 @@
 }
 
 .menulateral {
-  border-right: 1px solid lightgrey;
   position: fixed;
   height: 100%;
+  margin-top: 100px;
 }
 
 .menulateral span {
@@ -60,60 +62,179 @@
 .menulateral hr{
   border: 0.5px solid lightgrey;
 }
+.conteudo h5{
+  color: black;
+  font-weight: bold;
+}
+
+.conteudo {
+  height: 100%;
+}
+
+.conteudo h3 {
+  color: black;
+  font-weight: bold;
+}
 
 .conteudo a{
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
 .conteudo a:hover {
   text-decoration: none;
 }
 
-.contentvideo {
-}
-
-.contentvideo iframe {
-  margin-left: 40px;
-}
 .contentvideo h3 {
-  margin-left: 40px;
+
   font-weight: bold;
   color: black;
 }
-.descricao {
-  margin-left: 23px;
-}
 
 .descricao h3 {
-  margin-left: 0px;
   font-weight: bold;
   color: black;
 }
 
 .coments h3 {
-  margin-left: 20px;
   font-weight: bold;
   color: black;
 }
 
 .coments h4 {
-  margin-left: 20px;
+
   font-weight: bold;
   color: black;
 }
 
 .coments p {
-margin-left: 20px;
 color: black;
 }
 
 .relacionados {
-  border-left: 1px solid lightgrey;
-  border-width: thin;
 }
 .relacionados a {
   text-decoration: none;
   color: black;
   font-size: 14px;
+}
+
+@media only screen and (min-width: 1200px) {
+ .conteudo {
+   margin-left: 260px;
+   margin-top: 90px;
+ }
+ .contentvideo{
+   margin-left: -40px;
+ }
+.relacionados {
+  margin-left: 95px;
+}
+
+.coments {
+  margin-left : -40px;
+}
+
+.descricao {
+  margin-left: -20px;
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .conteudo {
+    margin-left: 165px;
+    margin-top: 90px;
+  }
+
+  .relacionados {
+    margin-left: 50px;
+  }
+
+  iframe {
+    width: 654px;
+    height: 360px;
+
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .conteudo {
+    margin-left: 250px;
+    margin-top: 100px;
+  }
+
+  .conteudo h3 {
+ margin-left: -100px;
+  }
+
+  iframe {
+    width: 700px;
+    height: 360px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 768px){
+  .conteudo {
+    margin-left: 300px;
+    margin-top: 140px;
+  }
+
+  .conteudo h3 {
+    margin-left: -80px;
+  }
+
+  .menulateral {
+    margin-top: 140px;
+  }
+
+  iframe {
+    width: 600px;
+    height: 330px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  iframe {
+    width: 500px;
+    height: 200px;
+  }
+  .conteudo {
+    margin-top: 150px;
+  }
+}
+
+.coments1 {
+border-bottom: 1px solid lightgrey;
+width: 700px;
+}
+
+.descricao1 {
+  display: none;
+}
+
+.coments {
+  display: none;
+}
+
+.relacionados {
+  display: none;
+
+}
+
+.relacionados h4, h5 {
+  font-weight: bold;
+  color: black;
+}
+#mostrarelacionado {
+  margin-left: 160px;
+}
+
+#mostracoments {
+  float: right;
 }

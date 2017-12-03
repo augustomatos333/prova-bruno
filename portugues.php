@@ -12,8 +12,8 @@ $lingua = [
 $titulos = [
   'musica' => [
     'Ghost - Square Hammer',
-    'Slipknot - "Psychosocial" (LIVE from Day Of The Gusano)',
-    'Slipknot - "Vermilion" (LIVE from Day Of The Gusano)',
+    'Slipknot - "Psychosocial" ',
+    'Slipknot - "Vermilion" ',
     'The Arena - Lindsey Stirling',
     'Master of Tides - Lindsey Stirling',
     'Skyrim - Lindsey Stirling & Peter Hollens',
@@ -49,7 +49,7 @@ $titulos = [
   'Teaser Trailer - Vingadores: Guerra Infinita.',
   'Guardiões da Galáxia Vol. 2 - TRAILER',
   'Esquadrão Suicida - Trailer Oficial 1 (leg) [HD]',
-  'Resident Evil: Vendetta Official Trailer #1 (2017) Animated Movie HD',
+  'Resident Evil: Vendetta Official Trailer  Animated Movie HD',
   'Forrest Gump - Trailer',
   'Dragon Ball Z A Batalha dos Deuses Trailer Dublado [Oficial]',
   'A Viagem de Chihiro - Trailer Dublado [HD]',
@@ -58,15 +58,15 @@ $titulos = [
 ],
 
    'noticia' => [
-     'Primeiro transplante de coração do mundo completa 50 anos',
-     '360º: O incrível mergulho debaixo de um iceberg na Antártida',
-     'Campeão de memória ensina truques para guardar grandes quantidades de informação',
-     '‘Tomei veneno’: o momento dramático que suspendeu julgamento histórico',
-     '\'Só faltam os passageiros\'',
-     'Rio de lama vulcânica antecipa grande erupção e leva apreensão a Bali',
-     '\'Injeto veneno de cobra no meu corpo para salvar vidas\'',
-     'China constrói maior radiotelescópio do mundo',
-     'Novas imagens do Hubble mostram aproximação de Marte da Terra',
+     'Entenda como é o racismo em Cuba',
+     'A melhor maneira de lidar com filhos agitados',
+     'Cinco filmes da DC Comics que valem a pena assistir',
+     'Quem quer ser presidente do Brasil?',
+     'Gleisi acha que brasileiro é idiota',
+     'De queijo na cueca à corrida eleitoral',
+     'Cabral é o Marcola de Benfica',
+     '"É inviável produzir teatro no Brasil sem leis de incentivo"',
+     '1 ano do acidente da Chapecoense: a tragédia virou drama',
    ]
 
 ];

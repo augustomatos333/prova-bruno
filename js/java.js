@@ -19,6 +19,21 @@ $(document).ready(function(){
     ajax('.conteudo', 'conteudo.php?cat=noticia')
   });
 
+	$('#mostrardescricao').click(function(){
+     $('.descricao1').show();
+     $('#mostrardescricao').hide();
+   });
+
+	 $('#mostracoments').click(function(){
+			 $('.coments').show();
+			 $('#mostracoments').hide();
+		 });
+
+		 $('#mostrarelacionado').click(function(){
+				 $('.relacionados').show();
+				 $('#mostrarelacionado').hide();
+			 });
+
  });
 
 

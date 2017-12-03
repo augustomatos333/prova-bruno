@@ -22,8 +22,8 @@
   <body>
     <?php
     $url = 'http://localhost/YouTube';
-     ?>
-    <?php if(isset ($_GET['lingua'])=='ingles'){
+
+    if( isset($_GET['language'])=='ingles'){
       require_once 'ingles.php';
     } else {
       require_once 'portugues.php';
@@ -40,7 +40,7 @@
 
          </div>
 
-         <div class="conteudo col-lg-9" style=" margin-left: 247px;">
+         <div class="conteudo col-lg-9 col-md-10">
 
          </div>
        </div> <!-- termina o row com a lateral e o conteudo -->

@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <?php if(isset ($_GET['lingua'])=='ingles'){
+    <?php require_once 'imagenscategoria.php';
+     require_once 'portugues.php';
+     require_once 'linksvideos.php';
+    $categoria = $_GET['cat'];
+    $vid = $_GET['numvid'];
+    ?>
+
+    <?php if( isset($_GET['language'])=='ingles'){
       require_once 'ingles.php';
     } else {
       require_once 'portugues.php';
@@ -11,7 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
-    <title>YouTube</title>
+    <?php  echo'<title>'.$titulos[$categoria][$vid].'</title>';?>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -33,10 +40,11 @@
        <div class="row">
         <?php require_once 'navegacao.php'; ?>
        </div>
-       <div class="row videos-coments-descricao">
+       <div class="container">
+       <div class="row videos-coments-descricao" style = " margin-top: 100px;">
             <?php require_once 'videoconteudo.php'; ?>
        </div>
-
+       </div>
      </div> <!-- fim do container fluid -->
 
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
