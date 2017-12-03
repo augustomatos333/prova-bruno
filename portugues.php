@@ -2,11 +2,23 @@
 $lingua = [
   'vInicio'=>'Início',
   'vEmAlta'=>'Em alta',
+  'vMelhor' => 'O MELHOR DO YOUTUBE',
   'vMusicas'=>'Músicas',
   'vEsportes'=>'Esportes',
   'vJogos'=>'Jogos',
   'vFilmes'=>'Filmes',
   'vNoticias'=>'Noticías',
+  'vPlaceHolder' =>'Pesquisar',
+  'vDescricao' => 'Os direitos autorais destes conteudos são reservados a seus autores e detentores. Esta é uma obra academica, para fins de aprendizado e não visa qualquer tipo de lucro.',
+  'vMaisC' => 'Mais Canais',
+  'tMusica' => 'Músicas',
+  'tEsporte' =>'Esportes',
+  'tJogo' =>'Jogos',
+  'tFilme' =>'Filmes',
+  'tNoticia' =>'Notícias',
+  'vRelacionados' => 'Relacionados',
+  'vComentarios' => 'Comentários',
+  'bDescricao' => 'Descrição'
 ];
 
 $titulos = [

@@ -23,13 +23,21 @@
     <?php
     $url = 'http://localhost/YouTube';
 
-    if( isset($_GET['language'])=='ingles'){
+    if(($_GET['language'])=='ingles'){
+      $lang = 'ingles';
+    } else {
+      $lang = 'portugues';
+    }
+    $pagina = 'index';
+    ?>
+    <p id="urlphp" style="display:none"><?=$lang?></p>
+    <?php
+    if(($_GET['language'])=='ingles'){
       require_once 'ingles.php';
     } else {
       require_once 'portugues.php';
     }
-    ?>
-
+     ?>
      <div class="container-fluid">
        <div class="row">
         <?php require_once 'navegacao.php'; ?>

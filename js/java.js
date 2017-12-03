@@ -1,22 +1,22 @@
 $(document).ready(function(){
 	$("#musica").click(function(){
-    ajax('.conteudo', 'conteudo.php?cat=musica')
+    ajax('.conteudo', 'conteudo.php?cat=musica&language=')
   });
 
   $("#esporte").click(function(){
-    ajax('.conteudo', 'conteudo.php?cat=esporte')
+    ajax('.conteudo', 'conteudo.php?cat=esporte&language=')
   });
 
   $("#jogo").click(function(){
-    ajax('.conteudo', 'conteudo.php?cat=jogo')
+    ajax('.conteudo', 'conteudo.php?cat=jogo&language=')
   });
 
   $("#filme").click(function(){
-    ajax('.conteudo', 'conteudo.php?cat=filme')
+    ajax('.conteudo', 'conteudo.php?cat=filme&language=')
   });
 
   $("#noticia").click(function(){
-    ajax('.conteudo', 'conteudo.php?cat=noticia')
+    ajax('.conteudo', 'conteudo.php?cat=noticia&language=')
   });
 
 	$('#mostrardescricao').click(function(){
@@ -37,11 +37,13 @@ $(document).ready(function(){
  });
 
 
-function ajax(retorno, urll) {
-  $.ajax({
-    url : urll,
-    success : function(result) {
-      $(retorno).html(result);
-    }
-   });
-}
+ function ajax(retorno, urll) {
+   var trad;
+   trad = $('#urlphp').text();
+   $.ajax({
+     url : urll + trad,
+     success : function(result) {
+       $(retorno).html(result);
+     }
+    });
+ }

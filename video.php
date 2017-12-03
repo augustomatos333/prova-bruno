@@ -2,18 +2,20 @@
 <html>
   <head>
     <?php require_once 'imagenscategoria.php';
-     require_once 'portugues.php';
+     
      require_once 'linksvideos.php';
     $categoria = $_GET['cat'];
     $vid = $_GET['numvid'];
+    $lang = $_GET['language'];
+    $pagina = 'video';
     ?>
-
-    <?php if( isset($_GET['language'])=='ingles'){
+    <?php
+    if(($_GET['language'])=='ingles'){
       require_once 'ingles.php';
     } else {
       require_once 'portugues.php';
     }
-    ?>
+     ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
