@@ -1,5 +1,5 @@
 <?php
-$url = 'http://localhost/YouTubeFinal';
+$url = 'https://augustomatos4.000webhostapp.com';
 $categoria = $_GET['cat'];
 require_once 'imagenscategoria.php';
 $lang = $_GET['language'];
