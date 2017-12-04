@@ -124,6 +124,7 @@ color: black;
  .conteudo {
    margin-left: 260px;
    margin-top: 90px;
+   height: 100%;
  }
  .contentvideo{
    margin-left: -40px;
@@ -163,7 +164,7 @@ color: black;
   }
 
   .coments1 {
-    width: 400px;
+    width: 650px;
   }
 }
 
@@ -182,7 +183,9 @@ color: black;
     height: 360px;
   }
 
-
+.coments1 {
+  width: 680px;
+}
 
 }
 
@@ -221,6 +224,12 @@ color: black;
 
   .relacionados {
     margin-left: -10px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .conteudo img {
+    display: none;
   }
 }
 

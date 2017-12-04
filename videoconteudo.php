@@ -11,7 +11,7 @@
        &nbsp;
        <div class=" descricao col-lg-12" >
          <div class="descricao1">
-          <p><?= $lingua ['vDescricao']?></p>
+          <p><?= $descricao[$categoria][$vid]?></p>
           <button type="button" id="mostracoments" class="btn btn-danger"><?= $lingua ['vComentarios']?></button>
           &nbsp;
          </div>
@@ -27,34 +27,34 @@
           <h3><?= $lingua ['vComentarios']?></h3>
           &nbsp;
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Miguel</h4>
-          <p>Vídeo muito bom!</p>
+          <p><?= $comentarios[0]?></p>
         </div>
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Juliano</h4>
-          <p>Primeira vez que seus vídeos. Já me tornei fã, bom demais!</p>
+          <p><?= $comentarios[1]?></p>
         </div>
 
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Júlia</h4>
-          <p>Saudades de quando você fazia vídeos bons...</p>
+          <p><?= $comentarios[2]?></p>
         </div>
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Maísa</h4>
-          <p>Horrível!</p>
+          <p><?= $comentarios[3]?></p>
         </div>
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Bianca</h4>
-          <p>Bom demais! Sempre assisto todos os seus vídeos!</p>
+          <p><?= $comentarios[4]?></p>
         </div>
 </div>
 </div>
 &nbsp;
 <button type="button" id="mostrarelacionado" class="btn btn-danger"><?= $lingua ['vRelacionados']?></button>
-<div class=" relacionados  col-lg-3 col-md-3 col-sm-5 col-sm-offset-3 col-xs-6 col-xs-offset-2">
+<div class=" relacionados  col-lg-3 col-md-3 col-sm-9 col-sm-offset-1 col-xs-12">
   &nbsp;
 <?php
   echo '<h4><center>'. $lingua ['vRelacionados'].'<center><h4>';

@@ -1,26 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <?php require_once 'imagenscategoria.php';
-
-     require_once 'linksvideos.php';
-    $categoria = $_GET['cat'];
-    $vid = $_GET['numvid'];
-    $lang = $_GET['language'];
-    $pagina = 'video';
-    ?>
-    <?php
-    if(($_GET['language'])=='ingles'){
-      require_once 'ingles.php';
-    } else {
-      require_once 'portugues.php';
-    }
-     ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
-    <?php  echo'<title>'.$titulos[$categoria][$vid].'</title>';?>
+    <title>YouTube</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -37,17 +22,39 @@
   <body>
     <?php
     $url = 'http://localhost/YouTubeFinal';
+
+    if(($_GET['language'])=='ingles'){
+      $lang = 'ingles';
+    } else {
+      $lang = 'portugues';
+    }
+    $pagina = 'index';
+    ?>
+    <p id="urlphp" style="display:none"><?=$lang?></p>
+    <?php
+    if(($_GET['language'])=='ingles'){
+      require_once 'ingles.php';
+    } else {
+      require_once 'portugues.php';
+    }
      ?>
      <div class="container-fluid">
        <div class="row">
         <?php require_once 'navegacao.php'; ?>
        </div>
-       <div class="container">
-       <div class="row videos-coments-descricao" style = " margin-top: 100px;">
-            <?php require_once 'videoconteudo.php'; ?>
-       </div>
-       </div>
+       <div class="row"> <!-- começa o row com a barra lateral e o conteudo -->
+         <div class="lateral">
+           <?php require_once 'menulateral.php'; ?>
+
+         </div>
+
+         <div class="conteudo col-lg-9 col-md-10">
+
+         </div>
+       </div> <!-- termina o row com a lateral e o conteudo -->
      </div> <!-- fim do container fluid -->
+
+
 
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
     <script src="js/jquery-3.2.1.min.js"></script>

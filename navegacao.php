@@ -1,9 +1,9 @@
 <?php
-$url = 'http://localhost/YouTube';
+$url = 'http://localhost/YouTubeFinal';
  ?>
 <nav class="navbar  navegacao">
   <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-4 logo">
-    <?php echo'<a  href="'.$url.'/index.php"><img src="img/logo.png" alt="YouTube"></a>'?>
+    <?php echo'<a  href="'.$url.'/index.php?language='.$lang.'"><img src="img/logo.png" alt="YouTube"></a>'?>
   </div>
   <div class="col-lg-5 col-lg-offset-1  col-md-6 col-sm-4 col-xs-12 pesquisa">
     <div class="input-group">

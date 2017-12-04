@@ -1,5 +1,5 @@
 <?php
-$url = 'http://localhost/YouTube';
+$url = 'http://localhost/YouTubeFinal';
 $categoria = $_GET['cat'];
 require_once 'imagenscategoria.php';
 $lang = $_GET['language'];
@@ -14,7 +14,7 @@ if ($_GET['cat'] == 'musica') {
    echo "<hr/>";
   for($i = 0; $i < 9; $i++){
   echo '<div class="video1 col-lg-4 col-md-4 col-sm-10 col-xs-8">';
-  echo '<center><a href="'.$url.'/video.php?language='.$lang.'&cat='.$categoria.'&numvid='.$i.'"><img src="'.$musica[$i].'" alt="" class="hidden-xs"><h5>'.$titulos[$categoria][$i].'</h5></a></center>';
+  echo '<center><a href="'.$url.'/video.php?language='.$lang.'&cat='.$categoria.'&numvid='.$i.'"><img src="'.$musica[$i].'" alt=""><h5>'.$titulos[$categoria][$i].'</h5></a></center>';
   echo '</div>';
     }
 }elseif ($_GET['cat'] == 'esporte') {
@@ -22,7 +22,7 @@ if ($_GET['cat'] == 'musica') {
    echo "<hr/>";
     for($i = 0; $i < 9; $i++){
     echo '<div class="video1 col-lg-4 col-md-4 col-sm-10 col-xs-8">';
-    echo '<a href="'.$url.'/video.php?language='.$lang.'&cat='.$categoria.'&numvid='.$i.'"><center><img src="'.$esporte[$i].'" alt="" class="hidden-xs"><center><h5><center>'.$titulos[$categoria][$i].'</center></h5></a>';
+    echo '<a href="'.$url.'/video.php?language='.$lang.'&cat='.$categoria.'&numvid='.$i.'"><center><img src="'.$esporte[$i].'" alt="" ><center><h5><center>'.$titulos[$categoria][$i].'</center></h5></a>';
     echo '</div>';
       }
 
