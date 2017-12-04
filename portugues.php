@@ -35,33 +35,33 @@ $titulos = [
   ],
 
   'esporte' => [
-    'Netherlands vs New Zealand Highlights - Sentinel Homes Hockey World League Final',
-    'USA vs China Highlights - Sentinel Homes Hockey World League Final ',
-    'Argentina vs England Match Highlights - Sentinel Homes Hockey World League Final',
-    'Argentina vs New Zealand Highlights - Sentinel Homes Hockey World League Final',
-    'Germany vs Argentina Match Highlights - Sentinel Homes Hockey World League Final',
-    'England vs China Match Highlights - Sentinel Homes Hockey World League Final',
-    'New Zealand vs USA Highlights - Sentinel Homes Hockey World League Final',
-    'Germany vs Korea Highlights - Sentinel Homes Hockey World League Final',
-    'Netherlands vs Korea Highlights - Sentinel Homes Hockey World League Final',
+    'Destaques de Holanda vs Nova Zelândia -  Final da Sentinel Homes Hockey League ',
+    'Destaques de EUA vs China  - Final da Sentinel Homes Hockey League',
+    'Destaques de Argentina vs Inglaterra - Final da Sentinel Homes Hockey  League',
+    'Destaques de Argentina vs Nova Zelândia - Final da Sentinel Homes Hockey  League',
+    'Destaques de Alemanha vs Argentina - Final da Sentinel Homes Hockey League ',
+    'Destaques de Inglaterra vs China - Final da Sentinel Homes Hockey League',
+    'Destaques de Nova Zelândia vs EUA - Final da Sentinel Homes Hockey League',
+    'Destaques de Alemanhavs Coreia - Final da Sentinel Homes Hockey League',
+    'Destaques de Holanda vs Coreia - Final da Sentinel Homes Hockey League',
   ],
    'jogo' => [
-  'Top 20 Worst Guns and Weapons in Borderlands 2 #PumaCounts',
-  'Top 10 Best and Most Overpowered Guns and Weapons to Farm in Borderlands 2 #PumaCounts',
-  'Top 8 Best Guns and Weapons from Tiny Tina Assault On Dragon Keep for Borderlands 2 #PumaCounts',
-  'Top 10 Best Quest and Mission Reward Guns and Weapons in Borderlands 2 #PumaCounts',
-  'Top 9 Best Pirate Booty DLC Guns and Weapons in Borderlands 2 #PumaCounts',
-  'Top 8 Best Guns and Weapons from Sir Hammerlock Big Game Hunt DLC for Borderlands 2 #PumaCounts',
-  'Top 7 Best Guns and Weapons from Mr. Torgue Campaign of Carnage for Borderlands 2 #PumaCounts',
-  'Top 8 Worst Torgue Guns and Weapons in Borderlands 2 and The Pre-Sequel! #PumaCounts',
-  'Top 10 Best Guns, Weapons and Gear for Maya the Siren in Borderlands 2 #PumaCounts'
+  'Top 20 Piores Armas em Borderlands 2 #PumaCounts',
+  'Top 10 Melhores e Mais Poderesas Armas Para se Farmar em Borderlands 2 #PumaCounts',
+  'Top 8 Melhores Armas da DLC "Tiny Tina Assault on Dragon Keep" em Borderlands 2 #PumaCounts',
+  'Top 10 Melhores Armas e Recompensas de Missões em Borderlands2 #PumaCounts',
+  'Top 9 Melhores Armas da DLC  "Pirate Booty" em Borderlands 2 #PumaCounts',
+  'Top 8 Melhores Armas da DLC "Sir Hammerlock Big Game Hunt" em Borderlands 2 #PumaCounts',
+  'Top 7 Melhores Armas da DLC  "Mr. Torgue Campaign of Carnage" em Borderlands 2 #PumaCounts',
+  'Top 8 Piores Armas  Torgue em Borderlands 2 e The Pre-Sequel #PumaCounts',
+  'Top 10 Melhores Armas e Equipamentos para Maya, a Siren em Borderlands 2 Best Guns #PumaCounts'
 ],
 
 'filme' => [
   'Teaser Trailer - Vingadores: Guerra Infinita.',
   'Guardiões da Galáxia Vol. 2 - TRAILER',
   'Esquadrão Suicida - Trailer Oficial 1 (leg) [HD]',
-  'Resident Evil: Vendetta Official Trailer  Animated Movie HD',
+  'Resident Evil: Vendetta Trailer Oficial HD',
   'Forrest Gump - Trailer',
   'Dragon Ball Z A Batalha dos Deuses Trailer Dublado [Oficial]',
   'A Viagem de Chihiro - Trailer Dublado [HD]',
@@ -151,11 +151,39 @@ $descricao = [
 ];
 
 $comentarios = [
+           'musica' => [
+             'Vídeo muito bom!',
+             'Essa música nova está demais!',
+             'Preferia as músicas de antigamente',
+             'Um ótimo vídeo, com uma ótima música'
+           ],
 
-'Vídeo muito bom!',
-'Primeira vez que seus vídeos. Já me tornei fã, bom demais!',
-'Saudades de quando você fazia vídeos bons...',
-'Horrível!',
-'Bom demais! Sempre assisto todos os seus vídeos!'
-]
+           'esporte' => [
+             'Estas meninas jogam muito!',
+             'Esta liga está bem disputada.',
+             'Nunca tinha visto este esporte, achei bacana.',
+             'Credo! Como jogam mal!'
+           ],
+
+           'jogo' => [
+             'Saudades de quando você fazia vídeos bons...',
+             'O jogo anterior desta franquia era melhor.',
+             'Vocês só faz vídeo desse jogo! Muda ai cara!',
+             'Adoro este jogo, jogo sempre que posso.'
+           ],
+
+           'filme' => [
+             'Horrível!',
+             'Mal posso esperar para ver esse filme',
+             'Vai ser tão ruim quanto o primeiro',
+             'Esse trailer me deu ainda mais vontade de ver o filme!'
+           ],
+
+           'noticia' => [
+             'Sempre me mantenho informado com esses vídeos.',
+             'Meu Deus! Que notícia ruim.',
+             'Nem vi a notícia, mas sei que é coisa ruim.',
+             'Essa midía brasileira só sabe manipular e falar o que bem entende.'
+           ]
+];
  ?>

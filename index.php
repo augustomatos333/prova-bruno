@@ -48,7 +48,7 @@
 
          </div>
 
-         <div class="conteudo col-lg-9 col-md-10">
+         <div class="conteudo col-lg-9 col-md-10 col-sm-8 col-sm-offset-3 col-xs-12">
 
          </div>
        </div> <!-- termina o row com a lateral e o conteudo -->

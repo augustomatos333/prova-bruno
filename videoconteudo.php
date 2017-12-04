@@ -27,29 +27,25 @@
           <h3><?= $lingua ['vComentarios']?></h3>
           &nbsp;
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Miguel</h4>
-          <p><?= $comentarios[0]?></p>
+          <p><?= $comentarios[$categoria][0]?></p>
         </div>
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Juliano</h4>
-          <p><?= $comentarios[1]?></p>
+          <p><?= $comentarios[$categoria][1]?></p>
         </div>
 
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Júlia</h4>
-          <p><?= $comentarios[2]?></p>
+          <p><?= $comentarios[$categoria][2]?></p>
         </div>
         &nbsp;
         <div class="col-lg-l2 coments1">
           <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Maísa</h4>
-          <p><?= $comentarios[3]?></p>
+          <p><?= $comentarios[$categoria][3]?></p>
         </div>
         &nbsp;
-        <div class="col-lg-l2 coments1">
-          <h4><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Bianca</h4>
-          <p><?= $comentarios[4]?></p>
-        </div>
 </div>
 </div>
 &nbsp;

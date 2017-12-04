@@ -59,27 +59,27 @@ $titulos = [
 ],
 
 'filme' => [
-  'Teaser Trailer - Vingadores: Guerra Infinita.',
-  'Guardiões da Galáxia Vol. 2 - TRAILER',
-  'Esquadrão Suicida - Trailer Oficial 1 (leg) [HD]',
-  'Resident Evil: Vendetta Official Trailer  Animated Movie HD',
+  'Teaser Trailer - Avengers: Infinity War.',
+  'Guardians of Galaxy Vol. 2 - TRAILER',
+  'Suicide Squad - Official Trailer (Sub) [HD]',
+  'Resident Evil: Vendetta Official Trailer HD',
   'Forrest Gump - Trailer',
-  'Dragon Ball Z A Batalha dos Deuses Trailer Dublado [Oficial]',
-  'A Viagem de Chihiro - Trailer Dublado [HD]',
-  'Capitão América: Guerra Civil - 28 de Abril nos Cinemas - Trailer Legendado',
-  'Capitão América o Primeiro Vingador - Trailer 2 Dublado HD',
+  'Dragon Ball Z: Battle of Gods [Official]',
+  'Spirited Away - Trailer [BR] [HD]',
+  'Captain America: Civil War  - 28 April on Theaters - Trailer [Sub]',
+  'Captain America: The First Avenger - Trailer 2 [BR] HD',
 ],
 
    'noticia' => [
-     'Entenda como é o racismo em Cuba',
-     'A melhor maneira de lidar com filhos agitados',
-     'Cinco filmes da DC Comics que valem a pena assistir',
-     'Quem quer ser presidente do Brasil?',
-     'Gleisi acha que brasileiro é idiota',
-     'De queijo na cueca à corrida eleitoral',
-     'Cabral é o Marcola de Benfica',
-     '"É inviável produzir teatro no Brasil sem leis de incentivo"',
-     '1 ano do acidente da Chapecoense: a tragédia virou drama',
+     'Understanding racism in Cuba',
+     'The best way to deal with agitated children',
+     'Five DC Comics movies worth watching',
+     'Who wants to be president of Brazil?',
+     'Gleisi thinks Brazilians are idiots',
+     'From cheese in his underwear to the electoral race',
+     'Cabral is  the "Marcola" from Benfica',
+     '"It is unfeasible to produce theater in Brazil without incentive laws"',
+     '1 year of the Chapecoense accident: tragedy became drama',
    ]
 
 ];
@@ -152,11 +152,39 @@ $descricao = [
 ];
 
 $comentarios = [
+           'musica' => [
+             'Awesome video!',
+             'This new music its so good.',
+             'Your older songs were better.',
+             'A great video, with a great song.'
+           ],
 
-'Awesome video!',
-'First time seeing your videos. Already became a fan, its awesome!',
-'I miss the good old times, whre your videos where good...',
-'Disgusting! Awful content ',
-'Its so good! I always watch your videos'
+           'esporte' => [
+             'These girls are good players.',
+             'This year league is so good.',
+             'I\'ve never seen this sport in my life. I liked it.',
+             'OMG! They suck!'
+           ],
+
+           'jogo' => [
+             'I miss the good old times, when your videos were good.',
+             'The first game of this franchise was a lot better.',
+             'Your videos are all about that game. Let it go man!',
+             'I love this game. I play it every day.'
+           ],
+
+           'filme' => [
+             'Awful!',
+             'I can\'t wait to see this movie!',
+             'It\'s gonna be as bad as the first one.',
+             'This trailer put me into the mood for this film.'
+           ],
+
+           'noticia' => [
+             'These videos always keeps me informed',
+             'OMG! Thats so bad news',
+             'I don\'t even need to watch this video, it is obviously bad news.',
+             'It is good to have a channel that keeps us informed.'
+           ]
 ];
  ?>
